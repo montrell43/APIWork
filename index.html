@@ -8,29 +8,43 @@
 
     <!-- Bootstrap CSS and JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="card" style="width: 18rem;">
+        <div class="api-section">
+            <div class="card-body">
+                <h1 class="card-title">
+                   Part 1: Random Dog Generator
+                </h1>
+                <div class="api-content">
+                    <button type="button" class="btn btn-primary" id="dog-btn">Click Me</button>
+                <img src="" class="card-img-top" alt="">
+                </div>
+            </div>
+        
+        </div>
+    </div>
     
-    <div class="api-section">
-        <h1>
-            Part 1: Random Dog Generator
-        </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+    <div class="card" style="width: 18rem;">
+        <div class="api-section">
+            <div class="card-body">
+                <h1>
+                  Part 2: Weather App
+                </h1>
+            </div>
+            
+            <div class="api-content">
+                <input type="text" id="city-input" class="form-control mb-3" placeholder="Enter a City">
+                <div class="temperature alert alert-info" id="temperature"></div>
+                <div class="wind alert alert-warning" id="wind"></div>
+                <div class="description alert alert-success" id="description"></div>
+                <button type="button" class="btn btn-secondary" id="weather-btn">Click Me</button>
+            </div>
         </div>
     </div>
-
-    <div class="api-section">
-        <h1>
-            Part 2: Weather App
-        </h1>
-        <div class="api-content">
-            [INSERT WEATHER APP HERE]
-        </div>
-    </div>
-
+    
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
